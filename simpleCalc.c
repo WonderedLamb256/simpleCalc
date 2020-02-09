@@ -1,4 +1,4 @@
-/* Calculator that adds, subtracts, multiplies, and divides
+/* Calculator that adds, subtracts, multiplies, divides, and squares
 Made by WonderedLamb256 */
 
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main()
 			int num2;
 			printf( "Choose number 1: " );
 			scanf( "%d", &num1 );
-			printf( "Choose number 2: " );
+			printf( "Choose number 2 (not needed in square operation): " );
 			scanf( "%d", &num2 );
 			int answer;
 			int operation;
@@ -32,9 +32,11 @@ int main()
 			{answer = num1 * num2;}
 			else if ( operation == 4 )
 			{answer = num1 / num2;}
+                        else if ( operation == 5 )
+			{answer = num1 * num1;}
 			else
 			{
-				printf( "Error: invalid operation\n" );
+				printf( "Error: invalid operation\n");
 				break;
 			}
 			printf( "Your answer is: %d\n", answer );
@@ -42,7 +44,7 @@ int main()
 		else if ( option == 2 )
 		{break;}
 		else if ( option == 3 )
-		{printf( "1 for add, 2 for subtract, 3 for multiply, 4 for divide\n");}
+		{printf( "1 for add, 2 for subtract, 3 for multiply, 4 for divide, 5 for square\n");}
 		else
 		{
 			printf( "Error: invalid option\n" );
