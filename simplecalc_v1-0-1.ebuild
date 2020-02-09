@@ -11,7 +11,7 @@ SRC_URI="https://github.com/wonderedlamb256/simplecalc/releases/download/${PKGV}
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~x86" # 64 bit yes, 32 bit maybe
+KEYWORDS="~amd64 ~x86" # 64 bit yes, 32 bit maybe
 IUSE="" # No needed USE flags
 
 DEPEND=""
