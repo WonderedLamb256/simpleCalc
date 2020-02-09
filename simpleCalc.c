@@ -10,7 +10,7 @@ int main()
 	loop = 1;
 	while(1)
 	{
-		printf( "Choose your option (1 for add, 2 for quit, 3 for help): ");
+		printf( "Choose your option (1 for calculate, 2 for quit, 3 for help): ");
 		scanf( "%d", &option );
 		if ( option == 1 )
 		{
