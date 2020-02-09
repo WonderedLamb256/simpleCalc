@@ -1,11 +1,13 @@
-# version 1.0.0
+# version 1.0.1
 # copyleft under GNU GPL
 
 EAPI=7
 
-DESCRIPTION="A simple calculator with add, sub, mul, div, and square"
+PKGV="1.0.1"
+
+DESCRIPTION="A simple calculator with +, -, *, /, square, and sqrt"
 HOMEPAGE="https://github.com/wonderedlamb256/simplecalc"
-SRC_URI="https://github.com/wonderedlamb256/simplecalc/releases/download/v1.0.0/simpleCalc.tar.gz"
+SRC_URI="https://github.com/wonderedlamb256/simplecalc/releases/download/${PKGV}/simpleCalc.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
